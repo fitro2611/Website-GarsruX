@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Baju Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>GasruX Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Bagian Beranda -->
+        <section id="home">
+            <div class="container">
+                <h2>Selamat Datang di GasruX Store</h2>
+                <p>Kami menyediakan berbagai pilihan baju berkualitas untuk semua kalangan.</p>
+                <p>Temukan koleksi terbaru kami dan nikmati pengalaman berbelanja yang menyenangkan.</p>
+            </div>
+        </section>
+
+        <!-- Bagian Produk -->
+        <section id="produk">
+            <h2></h2>
+            <div class="produk-card">
+                <img src="images/kasual.jpeg" alt="Gambar Baju">
+                <h3>Baju Kasual Pria</h3>
+                <p>Jaket Pria kasual Berkualitas</p>
+                <p><strong>Harga:</strong> Rp. 2.000.000,-</p>
+                <button><a href="checkout.html">Beli Sekarang</a></button>
+            </div>
+        
+            <div class="produk-card">
+                <img src="images/formal.jpeg" alt="Gambar Baju 1">
+                <h3>Baju Formal Pria</h3>
+                <p>Baju formal berkualitas dengan desain elegan.</p>
+                <p><strong>Harga:</strong> Rp. 3.500.000,-</p>
+                <button>Beli Sekarang</button>
+            </div>
+            
+            <div class="produk-card">
+                <img src="images/kasual wanita.jpeg" alt="Gambar Baju 2">
+                <h3>Baju Casual Wanita</h3>
+                <p>Baju santai dengan warna cerah untuk sehari-hari.</p>
+                <p><strong>Harga:</strong> Rp. 2.500.000,-</p>
+                <button>Beli Sekarang</button>
+            </div>
+    
+            <div class="produk-card">
+                <img src="images/dress.jpeg" alt="Gambar Baju 1">
+                <h3>Gaun formal Wanita</h3>
+                <p>Gaun formal Wanita berkualitas dengan desain elegan.</p>
+                <p><strong>Harga:</strong> Rp. 3.500.000,-</p>
+                <button>Beli Sekarang</button>
+            </div>
+        
+            <div class="produk-card">
+                <img src="images/baju anak cowo.jpg" alt="Gambar Baju 2">
+                <h3>Kombinasi Setelan anak Laki-Laki</h3>
+                <p>Setelan anak laki-laki dengan warna cerah.</p>
+                <p><strong>Harga:</strong> Rp. 1.000.000,-</p>
+                <button>Beli Sekarang</button>
+            </div>
+    
+            <div class="produk-card">
+                <img src="images/baju anak cewe.jpg" alt="Gambar Baju 2">
+                <h3>Kombinasi Setelan anak Perempuan</h3>
+                <p>Setelan anak perempuan dengan kombinasi warna yang cerah.</p>
+                <p><strong>Harga:</strong> Rp. 1.000.000,-</p>
+                <button>Beli Sekarang</button>
+            </div>
+        </section>
+
+        <!-- Bagian Tentang Kami -->
+        <section id="about">
+            <div class="container">
+                <h2>Tentang Kami</h2>
+                <p>GasruX Store adalah toko online yang menyediakan berbagai pilihan baju berkualitas untuk pria, wanita, dan anak-anak. Kami berkomitmen untuk memberikan pelayanan terbaik dan produk berkualitas kepada pelanggan kami.</p>
+                <p>Selalu terbuka untuk masukan dan saran dari Anda untuk terus meningkatkan kualitas layanan dan produk kami.</p>
+            </div>
+        </section>
+
+        <!-- Bagian Kontak -->
+        <section id="contact">
+            <div class="container">
+                <h2>Hubungi Kami</h2>
+                <form action="proses-kontak.php" method="POST">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan" name="pesan" rows="4" required></textarea>
+        
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Toko Baju Online. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

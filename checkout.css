@@ -1,0 +1,49 @@
+/* Style untuk bagian checkout */
+#checkout {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#checkout h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
